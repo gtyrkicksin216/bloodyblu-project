@@ -1,0 +1,10 @@
+#logobox {
+ /*   float: left;
+    width: 100%;
+    padding: 2% 0;
+    margin-top: 0; */
+    /* TODO: SECTION BELOW NEEDS TO BE ADDED IN CUSTOM STYLES */
+    position: relative;
+    /* TODO: WILL HAVE TO WRITE MEDIA QUERIES FOR SMALLER SCREEN SIZES TO ADJUST THE AMOUNT LOGO IS MOVED */
+    top: -20rem;
+}
