@@ -1,3 +1,19 @@
+/* ======= URL FOR CC0 LICENSE PHOTOS FROM PEXELS.COM ========= */
+/*
+placeholder-001.jpg
+https://www.pexels.com/photo/human-hand-on-fog-glass-26298/
+
+card-placeholder-002
+https://www.pexels.com/photo/backlit-dark-dawn-environment-289367/
+
+home-post-placeholder-001
+https://www.pexels.com/photo/brown-pumpkin-halloween-decor-and-gray-skull-at-grass-field-211358/
+
+home-post-placeholder-002
+https://www.pexels.com/photo/white-abandon-condominium-during-day-time-164314/
+
+*/
+
 /* WILL NEED QUERY FOR 1100PX TO DISPLAY BLOCK AND CHANGE SIZE AND POISITION */
 
 /* === SETS LOGO TO TOP OF PAGE === */
@@ -22,6 +38,10 @@ div#label-wrap {
 	border-top: none;
 }
 
+/* MOVES BLOG CARD OVER TO REVEAL LAST MENU ITEM */
+.box1 {
+    left: -85px;
+}
 
 
 
