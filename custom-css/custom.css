@@ -1,10 +1,32 @@
-#logobox {
- /*   float: left;
-    width: 100%;
-    padding: 2% 0;
-    margin-top: 0; */
-    /* TODO: SECTION BELOW NEEDS TO BE ADDED IN CUSTOM STYLES */
-    position: relative;
-    /* TODO: WILL HAVE TO WRITE MEDIA QUERIES FOR SMALLER SCREEN SIZES TO ADJUST THE AMOUNT LOGO IS MOVED */
-    top: -20rem;
+/* WILL NEED QUERY FOR 1100PX TO DISPLAY BLOCK AND CHANGE SIZE AND POISITION */
+
+/* === SETS LOGO TO TOP OF PAGE === */
+figure#logobox {
+    position: absolute;
+    top: 0;
+	left: 0;
+}
+
+/* === REMOVES THE 'CLIP ART' BIRD ON RIGHT SIDE OF PAGE === */
+figure#silh img {
+	display: none;
+}
+
+/* REMOVES WRAPPER FOR LOGO/LOGO BACKGROUND */
+div#label-wrap {
+	display: none
+}
+
+/* REMOVES 50px BLACK BORDER FROM TOP OF PAGE TO MOVE LOGO FURTHER UP */
+#main-content {
+	border-top: none;
+}
+
+
+
+
+/* MEDIA QUERIES GO HERE! */
+@media only screen and (max-width: 1029px){
+   
+    
 }
